@@ -6,7 +6,7 @@
         header('location:form.php');
     }
     if(isset($_POST['nouvellevaleur'])){
-        $tadmerde=str_replace(' ', '-', $_POST['nouvellevaleur']);
+        $creatdossier=str_replace(' ', '-', $_POST['nouvellevaleur']);
         rename('./racine/'.$_POST['anciennevaleur'],'./racine/'.$_POST['nouvellevaleur']);
         header ('Location:index.php');
     }
@@ -42,7 +42,7 @@ if (isset($_GET['modifier'])){ ?>
 <?php }
 ?>
 <form action="creer-dossier.php" method="post" class="mt-2">
-    <input type ="text" name="tasdemerde" class="mr-1 p-0-5 outline-none border-radius1">
+    <input type ="text" name="creatdossier" class="mr-1 p-0-5 outline-none border-radius1">
     <input type ="submit" value="creer un dossier" class="button1 text-white">
 </form>
     <?php 

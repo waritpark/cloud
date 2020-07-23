@@ -4,7 +4,7 @@
 
             <h2 class="font-family-julius d-flex justify-content-center">Login Form</h2>
             <div class="d-flex justify-content-center">
-            <form action="" method="post" autocomplete="false" class="font-family-roboto">
+            <form action="" method="post" autocomplete="off" class="font-family-roboto">
                 <label>Nom de compte :</label>
                 <input id="name" name="username" placeholder="username" type="text">
                 <label>Mot de passe :</label>

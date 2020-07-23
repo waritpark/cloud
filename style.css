@@ -1,13 +1,9 @@
 /**** font & text ****/
 
-@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Bad+Script|Cormorant+Garamond|Crimson+Text|Forum|Nanum+Myeongjo|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Roboto&display=swap');
 
 .font-family-julius {
     font-family: 'Julius Sans One', sans-serif;
-}
-.font-family-bad {
-    font-family: 'Bad Script', cursive;
 }
 .font-family-roboto {
     font-family: 'roboto', serif;

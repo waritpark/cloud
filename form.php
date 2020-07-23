@@ -6,7 +6,7 @@
 <?php include 'main.php' ?>
     <h2 class="d-flex justify-content-center font-family-julius">Connectez vous</h2>
     <div class="d-flex justify-content-center">
-        <form action="login.php" method="post" autocomplete="false" class="mb-2 font-family-roboto">
+        <form action="login.php" method="post" autocomplete="off" class="mb-2 font-family-roboto">
             <label>Nom de compte :</label>
             <input id="name" name="username" placeholder=" nom" type="text">
             <label>Mot de passe :</label>
